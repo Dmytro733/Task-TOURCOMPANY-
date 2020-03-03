@@ -1,0 +1,206 @@
+/*
+Theme Name: Tourcompany
+*/
+
+li{
+    list-style: none;
+}
+    
+tr{
+    height: 60px;
+}
+
+h5{
+    margin-bottom: 0 !important;
+}
+    
+body{
+    font-family: 'Fira Sans', sans-serif !important;
+    background: #ffffff;
+    color: #4E4B54;
+}
+
+.header, .home-page, .table, .footer, body{
+    width: 100%;
+}
+
+.top_nav, .footer_row, .home-page, body{
+    height: 100%;
+}
+
+.container-fluid, .top_nav-menu, .top_nav-logo, .list, .footer_list{
+    padding: 0 !important;
+}
+
+.row, .list, .list li:last-child, .footer_list{
+    margin: 0 !important;
+}
+    
+.container-fluid{
+    font-size: 18px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+        
+.header{
+    background: #171626;
+    height: 80px;
+}
+
+.top_nav-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo_name a, .logo_name a:hover{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.logo_name p{
+    margin-bottom: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    font-variant: small-caps;
+}
+    
+.list li{
+    float: left;
+    margin-right: 7%;
+}
+     
+.list li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.home-page{
+    margin: 50px 0 50px 0;
+}
+
+.title-image{
+    margin: 20px 0 20px 0;
+}
+
+.home-page_content-top, .home-page_content-bottom{
+    margin: 10px 0 10px 0;
+}
+    
+.table_name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+
+.table_name h2{
+    font-family: 'Fira Sans', sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+}
+    
+.Game_button{
+    border: 1px solid #DEE0E6;
+    border-radius: 3px;
+    width: 100px;
+    height: 39px;
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    top: 20px;
+}
+    
+.button_down{
+    transform: translate(3px, 0px);
+}
+    
+.Game_list{
+    display: none;
+}
+    
+.Game_button:hover{
+    cursor: pointer;
+}
+
+.Game_button:hover .Game_list{
+    display: block;
+    position: absolute;
+    width: 90px;
+    height: 75px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(72, 46, 176, 0.1);
+    border-radius: 3px;
+    padding: 1%;
+    margin: 0;    
+    transform: translate(-2px, 7px);
+    z-index: 1;
+}
+    
+.Game_Sport, .Game_ESport{
+    font-size: 14px;                 
+    line-height: 27px; 
+}
+
+.footer{
+    bottom: 0% ;
+    height: 80px;       
+    background: #171626;
+}
+    
+.footer_logo{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_logo-name a, .footer_logo-name a:hover{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer_logo-name p{
+    margin-bottom: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    font-variant: small-caps;
+}
+    
+.footer_about-company{
+    display: flex;
+    justify-content: flex-end; 
+}
+    
+.footer_list li{
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    float: left;
+    margin-left: 37px;
+}
+    
+.footer_list li a{
+    font-family: 'Fira Sans', sans-serif;
+    font-variant: small-caps;
+    font-weight: normal !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+                            
+
+                
+
+
