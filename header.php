@@ -16,13 +16,15 @@
                 <div class="top_nav-logo col-4 col-md-4 col-lg-4 col-xl-4">
                     <h5 class='logo_name'><a href="#"><?php the_field('logo_name')?></a></h5>
                 </div>
-                <div class="top_nav-menu col-8 col-md-8 col-lg-8 col-xl-8">
-                    <ul class="list">
-                        <li><a href="#">Bookmakers reviews</a></li>
-                        <li><a href="#">Esport</a></li>
-                        <li><a href="#">Sport</a></li>
-                        <li><a href="#">Blog</a></li>
-                    </ul>
-                </div>
+                <?php
+			        wp_nav_menu(
+			        	array(
+                            'theme_location'        => 'header_menu',
+                            'menu_class'        => 'list',
+                            'menu_id'       => 'menu-header',
+                            'container_class'       => 'top_nav-menu col-8 col-md-8 col-lg-8 col-xl-8' 
+			        	)
+			        );
+			    ?>
             </div>
         </div>

@@ -10,7 +10,9 @@
               </div>
               <div class='title-image'>
                 <div class="row justify-content-center">
-                  <img class='title-image_featured-image' src="<?php the_field('title-image_featured-image')?>" alt="">
+                  <div class="col-11 col-md-11 col-lg-11 col-xl-12">
+                    <img class='title-image_featured-image' src="<?php the_field('title-image_featured-image')?>" alt="">
+                  </div>
                 </div>
               </div>
               <div class="home-page_content-top">

@@ -1,5 +1,12 @@
 <?php
 
+add_action( 'after_setup_theme', function(){
+	register_nav_menus( [
+		'header_menu' => 'Меню в шапці',
+		'footer_menu' => 'Меню в підвалі'
+	] );
+} );
+
 add_action( 'wp_enqueue_scripts', 'tourcompany_scripts' );
 add_action( 'wp_enqueue_scripts', 'tourcompany_style' );
 
